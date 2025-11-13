@@ -1,4 +1,14 @@
-09:27:43.383 DEBUG AUTOMATION - Iniciando WebDriver
-09:27:46.635 DEBUG AUTOMATION - Maximizando pantalla
-09:27:46.709 DEBUG AUTOMATION - Eliminado coockies
-09:27:46.759 DEBUG AUTOMATION - Finalizando WebDriver
+17:47:31.286 INFO  AUTOMATION - Before All
+17:47:31.368 DEBUG AUTOMATION - Iniciando WebDriver
+17:47:32.807 DEBUG AUTOMATION - Maximizando pantalla
+17:47:32.846 DEBUG AUTOMATION - Eliminado coockies
+17:47:32.865 INFO  AUTOMATION - navegar a la url de login de comsatel
+17:47:32.865 INFO  AUTOMATION - Obtener la urlhttps://oauth2.dev.comsatel.com.pe/realms/Apps/protocol/openid-connect/auth?client_id=cl2-svrbasico&redirect_uri=https%3A%2F%2Fcl2webportal.qa.comsatel.com.pe%2Fhome%2Funidad%2Fmapa&state=dd6c1730-b8b4-44b6-8d9c-c4ab63357b51&response_mode=fragment&response_type=code&scope=openid&nonce=825856c0-fec1-4374-888a-e841efa4458e&code_challenge=rHW0XKvM-GZqRS-d0zS9b9fkVcPCEa7TRKQSMjCJUF4&code_challenge_method=S256
+17:47:41.617 INFO  AUTOMATION - el login es exitoso
+17:47:41.618 INFO  AUTOMATION - Escriba el usuario qacomsatel@gmail.com
+17:47:41.743 INFO  AUTOMATION - Escriba el clave welcome1
+17:47:41.836 INFO  AUTOMATION - Click boton de login
+17:47:41.837 INFO  AUTOMATION - Click en el boton de login
+17:47:41.918 INFO  AUTOMATION - Cliqueamos el boton de menu
+17:47:41.952 DEBUG AUTOMATION - Finalizando WebDriver
+17:47:42.172 INFO  AUTOMATION - After All

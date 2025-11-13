@@ -1,5 +1,6 @@
 package steps;
 
+import Pages.LoginPage;
 import io.cucumber.java.After;
 import io.cucumber.java.AfterAll;
 import io.cucumber.java.Before;
@@ -10,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import utilities.Logs;
 
 public class World {
-    WebDriver driver;
+    public WebDriver driver;
 
     @BeforeAll
     public static void beforeAll() {
@@ -40,6 +41,7 @@ public class World {
     public void tearDown()
     {
         Logs.debug("Finalizando WebDriver");
+
         driver.quit();
     }
 }

@@ -18,12 +18,12 @@ public class cl2Comsa {
         driver = world.driver;
     }
 
-    @Given("Ingresar a la página de login de Comsatel")
-    public void ingresoComsatel(String url) {
+    @Given("Ingresar a la página de login de Comsatel {string}")
+    public void ingresarALaPáginaDeLoginDeComsatel(String url) {
         driver.get(url);
     }
 
-    @When("Ingreso a las credenciales cone usuario {string} y contraseña {string}")
+    @When("Ingreso a las credenciales con usuario {string} y contraseña {string}")
     public void login(String user, String pass) {
         Logs.info("Escribo el usuario");
         driver.findElement(By.id("desUsuario")).sendKeys(user);
@@ -37,8 +37,9 @@ public class cl2Comsa {
 
     @Then("login exitoso")
     public void loginExitoso() {
-
+        System.out.println("Login exitoso");
     }
+
 
 
 }
